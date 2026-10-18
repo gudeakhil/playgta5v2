@@ -72,7 +72,7 @@ Active work is ongoing in the following areas:
 - Streaming
 - Compatibility
 
-Please [report issues](https://github.com/SebasKitten/Grand-V/issues) with your device model, OS/browser versions, the type of bug, and steps to reproduce it.
+Please [report issues]() with your device model, OS/browser versions, the type of bug, and steps to reproduce it.
 
 ## Disclaimer & Copyright
 
