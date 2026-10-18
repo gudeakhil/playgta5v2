@@ -209,14 +209,6 @@ The repository's Vercel configuration now publishes only the small help site in 
 
 The replacement **[Cloudflare Pages site is live](https://gta5-87g.pages.dev/__support/)**. Transport and engine compilation checks passed on October 13, 2026. Free hosting has no promise of permanent availability. Its current free limits allow 20,000 files with a maximum of 25 MiB each, and static requests are free and unlimited ([limits](https://developers.cloudflare.com/pages/platform/limits/), [pricing](https://developers.cloudflare.com/pages/functions/pricing/)). `build_pages.py` verifies the downloaded mirror and splits large assets into 4 MiB pieces. The browser loader reconstructs byte ranges using cached pieces; it does not depend on a server implementing HTTP Range, paid R2 storage, or Pages Functions. Generated output stays out of Git.
 
-## Disclaimer & Copyright
-
-This project is provided for educational purposes only.  
-
-We do not supply, distribute, or host any game data, mirror files, or proprietary assets belonging to Rockstar Games or Take-Two Interactive. Users are solely responsible for obtaining any required game files through legitimate means.
-
-Grand Theft Auto V and all related trademarks, assets, and intellectual property are the property of their respective owners. This project is not affiliated with, endorsed by, or connected to Rockstar Games or Take-Two Interactive in any way.
-
 
 ```sh
 python3 build_pages.py
