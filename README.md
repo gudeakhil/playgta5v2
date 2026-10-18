@@ -253,3 +253,11 @@ The compatibility page checks WebAssembly Memory64, basic WebGPU device creation
 ## Development checks
 
 Run `python3 -m unittest discover -s tests -v`, `node --check support/check.js`, and `bash -n mac-launcher.sh`. Tests cover the installer bundle, preservation/resume, checksums, unsafe paths, isolation headers, range reads, both batch formats, malformed requests, hosted startup checks, and cached piece reconstruction. With Node 24+, `node tests/check_hosted_transport.cjs https://YOUR_PROJECT.pages.dev` checks deployed headers, cross-piece ranges, the complete engine checksum, streaming compilation, and real 404 responses against the local mirror. This is a network/engine test, not a gameplay test. An existing mirror can be tested without copying it: `python3 serve_local.py --root /path/to/playgta5.com --port 8001 --open`.
+
+## Disclaimer & Copyright
+
+This project is provided for educational purposes only.  
+
+We do not supply, distribute, or host any game data, mirror files, or proprietary assets belonging to Rockstar Games or Take-Two Interactive. Users are solely responsible for obtaining any required game files through legitimate means.
+
+Grand Theft Auto V and all related trademarks, assets, and intellectual property are the property of their respective owners. This project is not affiliated with, endorsed by, or connected to Rockstar Games or Take-Two Interactive in any way.
