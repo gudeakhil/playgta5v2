@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GTA V in Browser</title>
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: radial-gradient(circle at top, #1c1c2a, #0d0d12 60%);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      main {
+        width: min(760px, calc(100% - 2rem));
+        background: rgba(0, 0, 0, 0.45);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-radius: 12px;
+        padding: 2rem;
+      }
+
+      h1 {
+        margin-top: 0;
+        font-size: 2rem;
+      }
+
+      p {
+        line-height: 1.5;
+        color: #d5d5db;
+      }
+
+      .actions {
+        display: flex;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+      }
+
+      a {
+        display: inline-block;
+        padding: 0.75rem 1rem;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 700;
+        color: white;
+      }
+
+      .primary {
+        background: #30a46c;
+      }
+
+      .secondary {
+        background: #2563eb;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Play GTA V in Your Browser</h1>
+      <p>
+        GTA V cannot run natively in a browser tab, but you can play it from a browser using cloud
+        gaming services where you already own or can access the game.
+      </p>
+      <div class="actions">
+        <a class="primary" href="https://play.geforcenow.com/" target="_blank" rel="noopener noreferrer">Open GeForce NOW</a>
+        <a class="secondary" href="https://www.xbox.com/play" target="_blank" rel="noopener noreferrer">Open Xbox Cloud Gaming</a>
+      </div>
+    </main>
+  </body>
+</html>
